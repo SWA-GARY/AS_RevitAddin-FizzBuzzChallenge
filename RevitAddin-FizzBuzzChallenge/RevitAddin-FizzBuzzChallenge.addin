@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitAddin-FizzBuzzChallenge</Text>
+    <Description>Some description for RevitAddin-FizzBuzzChallenge</Description>
+    <Assembly>RevitAddin-FizzBuzzChallenge.dll</Assembly>
+    <FullClassName>RevitAddin_FizzBuzzChallenge.Command</FullClassName>
+    <ClientId>13d1a706-f26b-407f-8d87-9e59588d6dfb</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitAddin-FizzBuzzChallenge</Name>
+    <Assembly>RevitAddin-FizzBuzzChallenge.dll</Assembly>
+    <FullClassName>RevitAddin_FizzBuzzChallenge.App</FullClassName>
+    <ClientId>7afdd8bc-dbc4-4fa0-b063-0e1bdc92b0a9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
